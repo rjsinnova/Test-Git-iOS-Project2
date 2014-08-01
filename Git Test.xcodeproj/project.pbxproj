@@ -21,6 +21,7 @@
 		CE70D7BD198C578B0091DB23 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE70D79F198C578B0091DB23 /* UIKit.framework */; };
 		CE70D7C5198C578B0091DB23 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE70D7C3198C578B0091DB23 /* InfoPlist.strings */; };
 		CE70D7C7198C578B0091DB23 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70D7C6198C578B0091DB23 /* Git_TestTests.m */; };
+		CE70D7D2198C5A130091DB23 /* RJSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = CE70D7D1198C5A130091DB23 /* RJSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		CE70D7C2198C578B0091DB23 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		CE70D7C4198C578B0091DB23 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CE70D7C6198C578B0091DB23 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		CE70D7D0198C5A130091DB23 /* RJSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJSTest.h; sourceTree = "<group>"; };
+		CE70D7D1198C5A130091DB23 /* RJSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				CE70D7AD198C578B0091DB23 /* Main.storyboard */,
 				CE70D7B0198C578B0091DB23 /* RJSViewController.h */,
 				CE70D7B1198C578B0091DB23 /* RJSViewController.m */,
+				CE70D7D0198C5A130091DB23 /* RJSTest.h */,
+				CE70D7D1198C5A130091DB23 /* RJSTest.m */,
 				CE70D7B3198C578B0091DB23 /* Images.xcassets */,
 				CE70D7A2198C578B0091DB23 /* Supporting Files */,
 			);
@@ -253,6 +258,7 @@
 				CE70D7B2198C578B0091DB23 /* RJSViewController.m in Sources */,
 				CE70D7AC198C578B0091DB23 /* RJSAppDelegate.m in Sources */,
 				CE70D7A8198C578B0091DB23 /* main.m in Sources */,
+				CE70D7D2198C5A130091DB23 /* RJSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
